@@ -127,10 +127,10 @@ Baby.prototype.play = function(favoriteToy) {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global - When nothing else applies, returns undefined in 'strict mode' or the window/global object otherwise
+  2. Implicit - Refers to object left of .this 
+  3. Explicit - When arguments are inserted directly with .call, .bind, and .apply
+  4. New - When constructor function refers to new object
 */
 
 
